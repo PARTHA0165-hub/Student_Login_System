@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h2> Student Registration Form </h2>
+
+  <form id="studentForm" class="animate-fade-in">
+    <input type="text" id="name" placeholder="Name" required><br>
+    <input type="number" id="age" placeholder="Age" required><br>
+    <div class="gender"> 
+      <label for="">Gender</label>
+      <input type="radio" name="gender" value="Male">Male
+      <input type="radio" name="gender" value="Female">Female
+    </div>
+    <input type="text" id="course" placeholder="Course" required><br>
+    <input type="email" id="email" placeholder="E-mail" required><br>
+    <button type="submit" class="ripple">Save</button>
+  </form>
+
+  <table id="studentTable" class="animate-fade-in-up">
+    <thead>
+      <tr>
+        <th>NAME</th>
+        <th>AGE</th>
+        <th>COURSE</th>
+        <th>GENDER</th>
+        <th>EMAIL</th>
+        <th>ACTION</th>
+      </tr>
+    </thead>
+  </table>
+
+  <hr class="line">
+    <footer class="final">
+        <p>© 2025 the.Parthasarathy. All Rights Reserved</p>
+        <p>Made with HTML & CSS</p>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
