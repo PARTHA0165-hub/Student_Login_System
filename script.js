@@ -1,3 +1,4 @@
+
 const form = document.getElementById('studentForm');
 const tableBody = document.querySelector('#studentTable tbody');
 
@@ -34,3 +35,4 @@ tableBody.addEventListener('click', function(e) {
     setTimeout(() => row.remove(), 400);
   }
 });
+
